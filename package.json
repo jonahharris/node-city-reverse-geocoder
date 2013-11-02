@@ -1,0 +1,15 @@
+{
+  "name": "city-reverse-geocoder",
+  "author": "Jonah H. Harris <jonah.harris@gmail.com> (http://www.jonahharris.com/)",
+  "description": "A simple, fast, database-less city reverse geocoder for Node.js",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/jonahharris/node-city-reverse-geocoder"
+  },
+  "main": "./lib/main",
+  "dependencies":
+    {
+      "heap": "*"
+      , "ngeohash": "*"
+    }
+}
